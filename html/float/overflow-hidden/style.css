@@ -1,0 +1,35 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #f0f8ff;
+}
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  max-width: calc(1280/1920*100%);
+  margin: 50px auto;
+  font-size: 2rem;
+  text-align: center;
+}
+.header {
+  background: #e6e6fa;
+  padding: 5rem 0;
+}
+.footer {
+  background: #add8e6;
+  padding: 5rem 0;
+}
+.menu {
+  float: left;
+  border: 1px solid #000;
+  width: 20%;
+  height: 100%;
+  line-height: 200px;
+  background-color: #ffff99
+}
+.main {
+  overflow: hidden;
+}
