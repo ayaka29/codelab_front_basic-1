@@ -24,15 +24,14 @@ body {
 }
 .menu {
   float: left;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   width: 20%;
   height: 100%;
   line-height: 200px;
   background-color: #fff8dc;
 }
-.footer,main :nth-child(5) {
+.cf::after {
+  content: "";
+  display: block;
   clear: both;
-}
-.cb {
-  float: right;
 }
